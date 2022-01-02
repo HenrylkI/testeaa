@@ -12,17 +12,6 @@ return `
 ┃
 ┃ 📷 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: @henry_ikl
 ┃
-┃ 🤖𝐆𝐢𝐭𝐡𝐮𝐛:
-┃ 🌐https://github.com/HenrylkI
-┃
-┃ 🪀𝐆𝐫𝐮𝐩𝐨:
-┃ 🌐Não tem 
-┃
-┃ 📹𝐘𝐨𝐮𝐭𝐮𝐛𝐞:
-┃ 🌐https://www.youtube.com/channel/UCMdlX9XSzEWAkgu2RJIkQKA
-┃
-┃ 🤑𝐁𝐫𝐢𝐳𝐚𝐬-𝐚𝐩𝐢:
-┃ 🌐
 ┃
 ┣━━━⚡ 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙄𝙎 ⚡━━━╮
 ┃
@@ -33,7 +22,6 @@ return `
 ┃ ${p}delete
 ┃ ${p}ajuda
 ┃ ${p}help
-┃ 
 ┃ ${p}comandos
 ┃ ${p}menulite
 ┃ ${p}menu

@@ -1,7 +1,7 @@
 const help = (p, date, user, wame) => {
 return `
 ╭━━━━━━━━━━━━━━━━━━━╮
-┃☄️✨MeciBot✨☄️
+┃☄️HnryBot✨☄️
 ┃  
 ┃ 🕐 𝐃𝐚𝐭𝐚 𝐞 𝐡𝐨𝐫𝐚: ${date}
 ┃ 🙂 𝐔𝐬𝐮𝐚́𝐫𝐢𝐨: ${user}
@@ -10,23 +10,18 @@ return `
 ┃
 ┣━━ 🤩 𝑹𝑬𝑫𝑬𝑺 𝑺𝑶𝑪𝑰𝑨𝑰𝑺 🤩 ━╮
 ┃
-┃ 📷 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : instagram.com/carecameci_
+┃ 📷 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : Henry_ikl
 ┃
 ┃
 ┣━━━⚡ 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙄𝙎 ⚡━━━╮
 ┃
 ┃ ${p}listblockcmd
 ┃ ${p}listpalavra
-┃ ${p}info
 ┃ ${p}del
 ┃ ${p}delete
-┃ ${p}ajuda
-┃ ${p}help
-┃ ${p}comandos
-┃ ${p}menulite
 ┃ ${p}menu
 ┃ ${p}ping
-┃ ${p}destrava
+┃ ${p}sticker
 ┃ ${p}sugerircmd (txt)
 ┃ ${p}blocklist
 ┃ ${p}blacklist
@@ -45,43 +40,6 @@ return `
 ┃ ${p}nfsticker (pack) (author)
 ┃ ${p}nfsticker (pack) (author)
 ┃ ${p}rename (pack) (author)
-┣━━━━😎 𝘾𝙍𝙄𝘼𝘿𝙊𝙍 😎━━━━╮
-┃ ${p}blockcmd (cmd sem prefix)
-┃ ${p}unblockcmd (cmd sem prefix)
-┃ ${p}alerta (txt)
-┃ ${p}antinewchat (1 or 0)
-┃ ${p}antispamcmd (1 or 0)
-┃ ${p}antipv (1 or 0)
-┃ ${p}antinewchat (1 or 0)
-┃ ${p}infinityblock (1 or 0)
-┃ ${p}antiligar (1 or 0)
-┃ ${p}addpalavra (txt)
-┃ ${p}rmpalavra (txt)
-┃ ${p}limparchat (txt)
-┃ ${p}ataque (txt)
-┃ ${p}divulgar (txt)
-┃ ${p}entrargp (txt)
-┃ ${p}block (num)
-┃ ${p}unblock (num)
-┃ ${p}msginfo
-┃ ${p}chatinfo
-┣━━━━🗳️ 𝙑𝙊𝙏𝙊 🗳️━━━━╮
-┃ ${p}votohelp
-┃ ${p}votoinit
-┃ ${p}clearvoto
-┃ ${p}votostatus
-┃ ${p}voto
-┃ ${p}votofinish
-┃ ${p}gpvotohelp
-┃ ${p}gpvotoinit
-┃ ${p}gpclearvoto
-┃ ${p}gpvotostatus
-┃ ${p}gpvoto
-┃ ${p}gpvotofinish
-┣━━━🙋‍♂️ 𝘽𝙊𝘼𝙎 𝙑𝙄𝙉𝘿𝘼𝙎 🙋‍♂️━━━╮
-┃ ${p}byeadd (texto)
-┃ ${p}welcomeadd (texto)
-┃ ${p}welcomehelp
 ┣━━━━━⏱️ 𝘾𝙊𝙉𝙏𝘼𝘿𝙊𝙍 ⏱️━━━━━╮
 ┃ ${p}checkativo (dial)
 ┃ ${p}rankativo
@@ -92,70 +50,6 @@ return `
 ┃ ${p}mute (marcar)
 ┃ ${p}desmute (marcar)
 ┃ ${p}mutados
-┣━━━━━💫 𝙇𝙀𝙑𝙀𝙇 💫━━━━━╮
-┃ ${p}deletelevel
-┃ ${p}level (n/a, num)
-┃ ${p}registerlevel
-┣━━━━🎮 𝙂𝘼𝙈𝙀𝙎 𝙓𝙋 🎮━━━━╮
-┃ ${p}jogatina (1 or 0)
-┃ ${p}stealrandom 
-┃ ${p}steal (dial number)
-┃ ${p}cassino 
-┃ ${p}flip 
-┃ ${p}doarxp (xp) (dial number) 
-┃ ${p}roletarandom
-┃ ${p}roletaneg
-┃ ${p}roletapos
-┃ ${p}flip 
-┣━━━━━⏳ 𝙇𝙄𝙈𝙄𝙏𝙀𝙎 ⏳━━━━╮
-┃ ${p}rmlimituser
-┃ ${p}resetlimit
-┃ ${p}limitcmd (1 or 0)
-┃ ${p}mylimit
-┣━━━━━❌ 𝘼𝙉𝙏𝙄 ❌━━━━━╮
-┃ ${p}antidoc (1 or 0)
-┃ ${p}antiloc (1 or 0)
-┃ ${p}antiimg (1 or 0)
-┃ ${p}antipalavra (1 or 0)
-┃ ${p}antivideo (1 or 0)
-┃ ${p}antisticker (1 or 0)
-┃ ${p}antiaudio (1 or 0)
-┃ ${p}antictt (1 or 0)
-┃ ${p}antilink (1 or 0)
-┃ ${p}antiporn (1 or 0)
-┃ ${p}antifake (1 or 0)
-┃ ${p}dontback (1 or 0)
-┃ ${p}antilinkhard (1 or 0)
-┣━━━━👥 𝙂𝙍𝙐𝙋𝙊𝙎 👥━━━╮
-┃ ${p}listfake
-┃ ${p}listbr
-┃ ${p}listddd (country code)
-┃ ${p}dbackadd (num)
-┃ ${p}dbackrm (num)
-┃ ${p}fechargp
-┃ ${p}mudardesc
-┃ ${p}mudarnome
-┃ ${p}abrirgp
-┃ ${p}linkgroup
-┃ ${p}listadmin
-┃ ${p}listonline
-┃ ${p}leave
-┃ ${p}kick (dial num)
-┃ ${p}ban (resp msg)
-┃ ${p}promote (dial num)
-┃ ${p}demote (dial num)
-┃ ${p}add (num)
-┃ ${p}roletrussablock (1 or 0)
-┃ ${p}welcome (1 or 0)
-┃ ${p}simih (1 or 0)
-┃ ${p}autostickerimg (1 or 0)
-┃ ${p}onmodgrupo
-┃ ${p}offmodgrupo
-┃ ${p}autoreply (1 or 0)
-┃ ${p}marcar
-┃ ${p}marcar2
-┃ ${p}marcar3
-┃ ${p}hidemarcar (txt)
 ┣━━━━━━🌈 𝙏𝙏𝙋 🌈━━━━━╮
 ┃ ${p}attp (txt)
 ┃ ${p}attp2 (txt)
@@ -276,42 +170,6 @@ return `
 ┃ ${p}monochromeimg (resp img)
 ┃ ${p}resizeimg (lag) (alt) (resp img)
 ┃ ${p}blurimg (rad) (sig) (resp img)
-┣━━━━🔍 𝙋𝙀𝙎𝙌𝙐𝙄𝙎𝘼 🔎━━━╮
-┃ ${p}pensador (autor)
-┃ ${p}xvideos (name)
-┃ ${p}thumbzilla (name)
-┃ ${p}xanimu (name)
-┃ ${p}xnxx (name)
-┃ ${p}fapster (name)
-┃ ${p}pornhub (name)
-┃ ${p}fortniteshop
-┃ ${p}imagesearch (resp img)
-┃ ${p}map (name)
-┃ ${p}brainlysrc (name)
-┃ ${p}search (name)
-┃ ${p}searchv2 (name)
-┃ ${p}ssweb (url)
-┃ ${p}mediafire (url)
-┃ ${p}mob
-┃ ${p}minecraft
-┃ ${p}covidbrasil
-┃ ${p}covidmundo
-┃ ${p}foxnews
-┃ ${p}lofi
-┃ ${p}boy
-┃ ${p}girl
-┃ ${p}egirl
-┃ ${p}eboy
-┃ ${p}pinterest (name)
-┃ ${p}wallpaper
-┃ ${p}fuckmylife
-┃ ${p}belle
-┃ ${p}saycat
-┃ ${p}biblia
-┃ ${p}playstore (name app)
-┃ ${p}happymod (name app)
-┃ ${p}ip (ip)
-┃ ${p}gimage (name)
 ┣━━⏳ 𝘾𝙊𝙉𝙏𝘼𝙂𝙀𝙈 ⏳━━╮
 ┃ ${p}halloween (ano)
 ┃ ${p}kidday (ano)
@@ -328,28 +186,6 @@ return `
 ┃ ${p}pascoa (ano)
 ┃ ${p}natal (ano)
 ┃ ${p}anonovo
-┣━━━━━😈 𝙋𝙊𝙍𝙉𝙊 😈━━━━╮
-┃ 
-┃ ${p}nhentai ❮code❯
-┃ ${p}randomhentai
-┃ ${p}nsfwblowjob
-┃ ${p}nsfwneko
-┃ ${p}nsfwtrap
-┃ ${p}nsfw (1 or 0)
-┃ ${p}anal
-┃ ${p}cum
-┃ ${p}yuri
-┃ ${p}hentainekogif
-┃ ${p}futanari
-┃ ${p}nsfwfeet
-┃ ${p}nsfwfeetgif
-┃ ${p}girlmasturbate
-┃ ${p}girlmasturbategif
-┃ ${p}lesbian
-┃ ${p}eroyuri
-┃ ${p}eroneko
-┃ ${p}erokitsune
-┃ ${p}spank
 ┣━━━━🗣️ 𝙑𝙊𝙕 𝙈𝙊𝘿 🗣️━━━━╮
 ┃ ${p}esquilo (resp audio)
 ┃ ${p}grave (resp audio)
@@ -369,19 +205,6 @@ return `
 ┃ ${p}ytsrc (name)
 ┃ ${p}ytmp4 (yt url)
 ┃ ${p}ytmp3 (yt url)
-┣━━━⚙️ 𝙂𝙀𝙍𝘼𝘿𝙊𝙍 ⚙️━━━━╮
-┃ ${p}fancy (txt)
-┃ ${p}gpessoa
-┃ ${p}gendereco
-┃ ${p}gcnh
-┃ ${p}geleitortitulo
-┃ ${p}gbanco
-┃ ${p}gcarro
-┃ ${p}gpass (letras n)
-┃ ${p}cpf
-┃ ${p}ddd (ddd)
-┃ ${p}cep (cep)
-┃ ${p}gprocesso
 ┣━━━━━━🧾 𝙏𝙀𝙓𝙏𝙊 🧾━━━━╮
 ┃ ${p}nameninja (name)
 ┃ ${p}fakeidentity
@@ -395,14 +218,6 @@ return `
 ┃ ${p}frase
 ┃ ${p}wppim
 ┃ ${p}db
-┣━━━━━🇯🇵 𝘼𝙉𝙄𝙈𝙀𝙎 🇯🇵━━━━╮
-┃ ${p}randomanime
-┃ ${p}randomkiss
-┃ ${p}randomhug
-┃ ${p}nekoanime
-┃ ${p}wait (cap, resp vid)
-┃ ${p}slap
-┃ ${p}kemonomimi
 ┣━━━👾 𝘾𝙊𝘿𝙄𝙂𝙊𝙎 👾━━━╮
 ┃ ${p}txtomorse (txt)
 ┃ ${p}morsetotxt (txt)
@@ -445,32 +260,6 @@ return `
 ┃ ${p}instastalk (name)
 ┃ ${p}githubstalk (name)
 ┃ ${p}tiktokstalk (name)
-┣━━━😳 𝙄𝙉𝙏𝙀𝙍𝘼𝘾̧𝘼̃𝙊 😳━━━╮
-┃ ${p}vsf
-┃ ${p}botfofo
-┃ ${p}pedro
-┃ ${p}botgostoso
-┃ ${p}botviado
-┃ ${p}botbaianor
-┃ ${p}botfdp
-┃ ${p}botfeio
-┃ ${p}botputa
-┃ ${p}botgay
-┃ ${p}botcorno
-┃ ${p}vtmnc
-┃ ${p}bomdia
-┃ ${p}boatarde
-┃ ${p}boanoite
-┃ ${p}lindo
-┃ ${p}cheguei
-┣━━━━😝 𝘿𝙄𝙑𝙀𝙍𝙎𝘼̃𝙊 😝━━━╮
-┃ ${p}papel
-┃ ${p}pedra
-┃ ${p}tesoura
-┃ ${p}cassino
-┃ ${p}meme
-┃ ${p}memeindo
-┃ ${p}darkjokes
 ┣━━━━💱 𝙈𝙊𝙀𝘿𝘼 💱━━━━━╮
 ┃ ${p}dolarhoje
 ┃ ${p}rublohoje
